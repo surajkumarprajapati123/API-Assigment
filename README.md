@@ -34,5 +34,5 @@ This project is a web-based application developed using Node.js and Express. It 
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/surajkumarprajapati123/API-Assigment
    cd <repository-directory>
