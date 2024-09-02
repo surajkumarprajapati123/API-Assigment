@@ -43,5 +43,39 @@ This project is a web-based application developed using Node.js and Express. It 
 
 npm install
 
+## Running the Application
+npm start
+
+## Register a User
+Endpoint: POST http://127.0.0.1:3000/user/create
+
+Request Body:
+{
+  "username": "your_username",
+  "email": "your_email@example.com",
+  "password": "your_password"
+}
+
+## Login a User
+Endpoint: POST http://127.0.0.1:3000/user/login
+
+Request Body:
+{
+  "username": "your_username",
+  "email": "your_email@example.com",
+  "password": "your_password"
+}
+
+## Use the JWT Token to Access Protected Endpoint
+
+Endpoint: GET http://1227.0.0.1:3000/user/test
+
+URL: http://127.0.0.1:3000/user/test (make sure to use the correct port)
+
+Headers:
+
+Authorization: Bearer jwt_token (replace jwt_token with the token you received from the login response)
+
+
 
 
