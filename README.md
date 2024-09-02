@@ -36,3 +36,12 @@ This project is a web-based application developed using Node.js and Express. It 
    ```bash
    git clone https://github.com/surajkumarprajapati123/API-Assigment
    cd <repository-directory>
+
+   Install Dependencies
+
+## Ensure you have Node.js installed. Install the required dependencies:
+
+npm install
+
+
+
